@@ -4,7 +4,7 @@
 ## Have been implemented in following languages
 
 -  [x] C
--  [ ] C++
+-  [x] C++
 -  [x] Java
 -  [x] Python
 -  [ ] C#
