@@ -13,7 +13,7 @@ JAVA: FizzBuzz.java
 	$(JC) $^
 
 javarun:
-	java FizzBuzz.class	
+	java FizzBuzz
 
 clean:
 	rm *.o
