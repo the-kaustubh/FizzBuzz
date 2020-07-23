@@ -8,5 +8,5 @@
 -  [x] Java
 -  [x] Python
 -  [ ] C#
--  [ ] Ruby
+-  [x] Ruby
 -  [ ] JS
