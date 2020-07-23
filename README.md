@@ -7,6 +7,6 @@
 -  [x] C++
 -  [x] Java
 -  [x] Python
--  [ ] C#
+-  [x] C#
 -  [x] Ruby
 -  [x] HTML
