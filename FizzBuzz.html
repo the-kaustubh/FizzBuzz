@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+    <style>
+        .main {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div >Please open console</div>
+    <div class="main" contenteditable >20</div>
+    <button onclick="fizzbuzz()">FizzBuzz</button>
+</body>
+<script>
+    var n = parseInt(document.querySelector(".main").innerHTML);
+    function fizzbuzz() {
+        n = parseInt(document.querySelector(".main").innerHTML);
+        for(let i = 1; i <= n; i++) {
+            let three = !(i % 3);
+            let five  = !(i % 5);
+            if(three && ! five)
+                console.log("Fizz");
+            if(five && ! three)
+                console.log("Buzz");
+            if(three && five)
+                console.log("FizzBuzz");
+            if(!(three || five))
+                console.log(i);
+        }
+    }
+</script>
+</html>
