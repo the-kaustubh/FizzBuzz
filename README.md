@@ -9,4 +9,4 @@
 -  [x] Python
 -  [ ] C#
 -  [x] Ruby
--  [ ] JS
+-  [x] HTML
